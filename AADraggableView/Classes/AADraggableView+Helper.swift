@@ -44,7 +44,7 @@ extension AADraggableView {
     
     /// screen min x axis
     var screenMinX: CGFloat {
-        return respectedBounds.minX + padding
+        return respectedBounds.minX + padding +64
     }
     
     /// screen mid x axis
